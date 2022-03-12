@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Josefin+Sans:wght@600&family=Montserrat&family=Staatliches&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: #f4f3f3;
+    color: black;
+    padding: 5px 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.danger {
+    border-color: #f44336;
+    color: red
+  }
+  
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: auto;
+    display: flex;
+    z-index: 1;
+}
+
+h1 {
+    font-family: "Staatliches";
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.personal {
+    display: flex;
+    height: 100vh;
+}
+  
+.personal .right {
+    flex: 50%;
+}
+
+.personal .right img {
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.personal .left {
+    flex: 40%;
+    display: flex;
+    position: relative;
+}
+  
+.personal .left div {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    left: 40%;
+}
+
+.personal .left div h2{
+    text-align: justify;
+    font-family: "Staatliches";
+}
+
+.personal .left div p {
+    color: #959595;
+    font-family: "Josefin+Sans", sans-serif;
+}
+
+.personal .left .real-work h2 {
+    text-align: justify;
+    font-family: "Staatliches";
+}
+
+.personal .left .real-work p {
+    color: #959595;
+    font-family: "Josefin+Sans", sans-serif;
+}

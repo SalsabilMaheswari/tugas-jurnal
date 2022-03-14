@@ -26,7 +26,7 @@
     background: #f44336;
     color: white;
 }
-
+  
 .navbar {
     position: sticky;
     position: -webkit-sticky;
@@ -53,19 +53,19 @@
     font-size: 50px;
 }
 
-.gambarfullstack{
-    margin-left: 20%;
-    margin-top: 30%;
-}
-
-.gambarfullstack img {
+.card-body .gambarfullstack img {
     cursor: pointer progress;
-    width: 45px;
-    margin-left: 9px;
+    width: 55px;
     margin-top: 30px;
 }
 
-.wrap h2 {
-    margin-left: 20%;
-    margin-top: 50px;
+.card-body h2 {
+    margin-top: 30px;
 }
+
+.card-body ul li {
+    list-style-type: disc;
+}
+
+
+

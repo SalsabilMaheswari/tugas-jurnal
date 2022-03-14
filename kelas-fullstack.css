@@ -88,3 +88,32 @@
     font-family: sans-serif;
 }
 
+.backend-development {
+    display: flex;
+    width: 50%;
+}
+
+.backend-development .left {
+    flex: 30%;
+}
+
+.backend-development .left img{
+    width: 60%;
+}
+
+.backend-development .right { 
+    display: flex;
+    position: relative;
+}
+
+.backend-development .right div {
+    top: 30px;
+}
+
+.backend-development .right div h4 {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.backend-development .right div p {
+    font-family: sans-serif;
+}

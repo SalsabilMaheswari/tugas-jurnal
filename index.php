@@ -18,20 +18,20 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="home.html" style="color: #DA1212;">Beranda</a>
+                <a class="nav-link" href="index.php" style="color: #DA1212;">Beranda</a>
               </li>
               <li class="nav-item">
-                <a href="why-us.html" class="nav-link list-active" style="color: #DA1212;">Why Us?</a>
+                <a href="why-us.php" class="nav-link list-active" style="color: #DA1212;">Why Us?</a>
               </li>
               <li class="nav-item">
-                <a href="pilihan-kelas.html" class="nav-link list-active" style="color: #DA1212;">Pilihan Kelas</a>
+                <a href="pilihan-kelas.php" class="nav-link list-active" style="color: #DA1212;">Pilihan Kelas</a>
               </li>
               <li class="nav-item">
-                <a href="kelas-fullstack.css" class="nav-link list-active" style="color: #DA1212;">Kelas Fullstack</a>
+                <a href="kelas-fullstack.php" class="nav-link list-active" style="color: #DA1212;">Kelas Fullstack</a>
               </li>
             </ul>
           </div>
-          <a href="any-question.html"><button class="btn danger">Any Question?</button></a>
+          <a href="any-question.php"><button class="btn danger">Any Question?</button></a>
         </div>
     </nav>
     <div class="personal">

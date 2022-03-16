@@ -18,41 +18,42 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="home.html" style="color: #DA1212;">Beranda</a>
+                <a class="nav-link" href="index.php" style="color: #DA1212;">Beranda</a>
               </li>
               <li class="nav-item">
-                <a href="why-us.html" class="nav-link list-active" style="color: #DA1212;">Why Us?</a>
+                <a href="why-us.php" class="nav-link list-active" style="color: #DA1212;">Why Us?</a>
               </li>
               <li class="nav-item">
-                <a href="pilihan-kelas.html" class="nav-link list-active" style="color: #DA1212;">Pilihan Kelas</a>
+                <a href="pilihan-kelas.php" class="nav-link list-active" style="color: #DA1212;">Pilihan Kelas</a>
               </li>
               <li class="nav-item">
-                <a href="kelas-fullstack.html" class="nav-link list-active" style="color: #DA1212;">Kelas Fullstack</a>
+                <a href="kelas-fullstack.php" class="nav-link list-active" style="color: #DA1212;">Kelas Fullstack</a>
               </li>
             </ul>
           </div>
-          <a href="any-question.html"><button class="btn danger">Any Question?</button></a>
+          <a href="any-question.php"><button class="btn danger">Any Question?</button></a>
         </div>
     </nav>
     <div class="blog-form">
         <div class="form-container">
-          <h1>Drop Your Question</h1>
+          <form action="input any-question.php" method="POST"></form>
+            <h1>Drop Your Question</h1>
             <div>
               <label for="input-title" class="form-label">Name</label>
-              <input id="input-title" name="title" class="form-control" placeholder="Your Name"/>
+              <input type="text" name="nama" class="form-control" placeholder="Your Name" required/>
             </div>
             <div>
-                <label for="input-email" class="form-label">Email</label>
-                <input id="input-email" name="email" class="form-control" placeholder="Your Email"/>
+              <label for="input-email" class="form-label">Email</label>
+              <input type="email" name="email" class="form-control" placeholder="Your Email" required/>
             </div>
             <div>
               <label for="input-content" class="form-label">Your Question</label>
-              <textarea id="input-content" name="content" class="form-control"></textarea>
+              <textarea name="komen" class="form-control" required></textarea>
             </div>
-            <div class="d-flex justify-content-end">
-                <button class="btn1">Kirim</button>
-                <button class="btn1">Batal</button>
+            <div>
+              <input type="submit" name="post" value="post">
             </div>
+          </form>
         </div>
     </div>
 </body>

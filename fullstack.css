@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Hubballi&family=Josefin+Sans:wght@600&family=Montserrat:wght@600&family=Staatliches&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: #f4f3f3;
+    color: black;
+    padding: 5px 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.danger {
+    border-color: #f44336;
+    color: red
+  }
+  
+.danger:hover {
+    background: #f44336;
+    color: white;
+}
+  
+.navbar {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    margin: auto;
+    display: flex;
+    z-index: 1;
+}
+
+.proses {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 100%;
+}
+
+.proses .mendaftarkan {
+    width: 20%;
+    margin-left: 100px;
+}
+
+.proses .mendaftarkan .gambar {
+    display: flex;
+}
+
+.proses .mendaftarkan .gambar span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.personal {
+    display: flex;
+}
+  
+.personal .right {
+    flex: 50%;
+}
+
+.personal .right img {
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.personal .left {
+    flex: 40%;
+    display: flex;
+    position: relative;
+}
+  
+.personal .left div {
+    position: absolute;
+    right: 30px;
+    left: 40%;
+}
+
+.personal .left div h4{
+    text-align: justify;
+    font-family: "Staatliches";
+}
+
+.personal .left div p {
+    color: #959595;
+    font-family: "Josefin+Sans", sans-serif;
+}

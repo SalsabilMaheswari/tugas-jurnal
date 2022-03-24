@@ -36,26 +36,6 @@
     z-index: 1;
 }
 
-.proses {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 100%;
-}
-
-.proses .mendaftarkan {
-    width: 20%;
-    margin-left: 100px;
-}
-
-.proses .mendaftarkan .gambar {
-    display: flex;
-}
-
-.proses .mendaftarkan .gambar span {
-    flex: 1;
-    margin-right: 10px;
-}
-
 .personal {
     display: flex;
 }
@@ -88,6 +68,6 @@
 }
 
 .personal .left div p {
-    color: #959595;
     font-family: "Josefin+Sans", sans-serif;
+    color: #959595;
 }

@@ -1,14 +1,14 @@
-<?php
+<?php 
 
 $server = "localhost";
-$user = "root";
+$username = "root";
 $password = "";
-$nama_database = "komentar";
+$database = "db_comment";
 
-$koneksi = mysqli_connect($server, $user, $password, $nama_database);
+$conn = mysqli_connect($server, $username, $password, $database);
 
-if( !$koneksi ){
-    die("Gagal terhubung dengan database: " . mysqli_connect_error());
+if (!$conn) { // If Check Connection
+    die("<script>alert('Connection Failed.')</script>");
 }
 
 ?>
